@@ -28,3 +28,7 @@ VITE v5.1.0  ready in 5124 ms
 Page dari aplikasi ini dapat di akses dari browser dengan alamat http://localhost:5173/ dan akan muncul *placeholder page*:
 
 ![placeholder page](./public/initial-screen.png)
+
+Example 01 dapat diakses dengan http://localhost:5173/01-simple-counter/index.html
+
+![tampilan layar latihan 1, dengan 2 button untuk meng-update angka counter](./public/01-simple-counter.png)
