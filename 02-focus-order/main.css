@@ -45,9 +45,9 @@ header {
 }
 
 .offscreen {
-    position: absolute;
-    left: -10000px;
-    top: -10000px;
+  position: absolute;
+  left: -10000px;
+  top: -10000px;
 }
 
 .menu {
