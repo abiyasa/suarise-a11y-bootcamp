@@ -1,4 +1,4 @@
-# Suarise A11y Bootcamp Code Companion
+# Suarise A11Y Bootcamp Code Companion
 
 Code template buat kelas Best Practice A11Y Development
 
@@ -30,5 +30,6 @@ Page dari aplikasi ini dapat di akses dari browser dengan alamat http://localhos
 ![placeholder page](./public/initial-screen.png)
 
 Example 01 dapat diakses dengan http://localhost:5173/01-simple-counter/index.html
+Untuk memastikan aplikasi berjalan dengan baik, klik tombol tambah atau kurang untuk mengubah angka jumlah. Note: tombol konfirmasi memang sengaja tidak berfungsi.
 
 ![tampilan layar latihan 1, dengan 2 button untuk meng-update angka counter](./public/01-simple-counter.png)
