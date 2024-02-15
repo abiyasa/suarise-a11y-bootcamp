@@ -15,6 +15,7 @@
 
 .radio {
   position: relative;
+  padding: 2px;
 }
 
 .radio::before {
@@ -39,8 +40,8 @@
   width: 16px;
   height: 16px;
   position: absolute;
-  left: -18px;
-  top: 0px;
+  left: -22px;
+  top: -6px;
   border-radius: 50%;
 }
 
