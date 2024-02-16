@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-9p4a8sJU.js";s();function s(){const c=document.querySelector("#counter"),o=document.querySelector("#trigger-increase"),u=document.querySelector("#trigger-decrease");let e=0;const n=t=>{r(e+t)},r=t=>{e=t,c.innerHTML=`Jumlah item: ${e}`};o.addEventListener("click",()=>n(1)),u.addEventListener("click",()=>n(-1)),r(0)}
