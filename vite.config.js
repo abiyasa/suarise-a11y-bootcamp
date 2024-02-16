@@ -2,7 +2,9 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
 export default defineConfig({
+  base: 'suarise-a11y-bootcamp/',
   build: {
+    outDir: 'docs',
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
