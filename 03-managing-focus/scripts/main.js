@@ -40,5 +40,6 @@ function showPage(pageName) {
   // }
 
   // focus to header in new page
+  // Hint: check the HTML h2 tag in each section
   // newPage.querySelector('h2').focus();
 }
