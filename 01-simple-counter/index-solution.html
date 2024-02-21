@@ -1,0 +1,43 @@
+<!doctype html>
+<!-- One possible solutions 🙂 -->
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konfirmasi Pengiriman Barang</title>
+    <style>
+      /* Fix the missing outline focus */
+      .pure-button:focus {
+        outline: revert;
+      }
+
+      /* A very simple offscreen text or visible to screen reader only */
+      .offscreen {
+        position: absolute;
+        left: -10000px;
+        top: -10000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <h1>Konfirmasi Total Barang</h1>
+        <div class="card card-shipping">
+          <div>
+            <span id="counter" aria-live="polite"></span>
+
+            <!-- Use offscreen text to add more context to short button text -->
+            <button id="trigger-increase" type="button" class="pure-button">Tambah <span class="offscreen">jumlah barang</span></button>
+            <button id="trigger-decrease" type="button" class="pure-button">Kurang <span class="offscreen">jumlah barang</span></button>
+          </div>
+          <button type="button" class="pure-button pure-button-primary">Konfirmasi jumlah barang</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

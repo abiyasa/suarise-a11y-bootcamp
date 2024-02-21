@@ -1,0 +1,70 @@
+<!doctype html>
+<!-- Modified from https://www.w3.org/WAI/ARIA/apg/patterns/switch/examples/switch-button/ -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Switch examples</title>
+  </head>
+
+  <body>
+    <h1>Switch Examples</h1>
+
+    <div role="group" aria-labelledby="id-group-label">
+      <h2 id="id-group-label">First Floor Controls</h2>
+
+      <button type="button" role="switch" aria-checked="false">
+        <span class="label">Living Room Lights</span>
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="36">
+          <rect class="container" x="1" y="1" width="34" height="18" rx="4"></rect>
+          <rect class="off" x="4" y="4" width="12" height="12" rx="4"></rect>
+          <rect class="on" x="20" y="4" width="12" height="12" rx="4"></rect>
+        </svg>
+        <span class="on" aria-hidden="true">On</span>
+        <span class="off" aria-hidden="true">Off</span>
+      </button>
+
+      <button type="button" role="switch" aria-checked="false">
+        <span class="label">Outdoor Lights</span>
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="36">
+          <rect class="container" x="1" y="1" width="34" height="18" rx="4"></rect>
+          <rect class="off" x="4" y="4" width="12" height="12" rx="4"></rect>
+          <rect class="on" x="20" y="4" width="12" height="12" rx="4"></rect>
+        </svg>
+        <span class="on" aria-hidden="true">On</span>
+        <span class="off" aria-hidden="true">Off</span>
+      </button>
+    </div>
+
+    <div role="group" aria-labelledby="id-group-2-label id-group-2-section">
+      <h2 id="id-group-2-label">Second Floor Controls</h2>
+      <h3 id="id-group-2-section" style="display: none;">Lights</h3>
+
+      <button type="button" class="switch">
+        <span class="label">Game Room Lights</span>
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="36">
+          <rect class="container" x="1" y="1" width="34" height="18" rx="4"></rect>
+          <rect class="off" x="4" y="4" width="12" height="12" rx="4"></rect>
+          <rect class="on" x="20" y="4" width="12" height="12" rx="4"></rect>
+        </svg>
+        <span class="on" aria-hidden="true">On</span>
+        <span class="off" aria-hidden="true">Off</span>
+      </button>
+
+      <button type="button" class="switch">
+        <span class="label">Balcony Lights</span>
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="36">
+          <rect class="container" x="1" y="1" width="34" height="18" rx="4"></rect>
+          <rect class="off" x="4" y="4" width="12" height="12" rx="4"></rect>
+          <rect class="on" x="20" y="4" width="12" height="12" rx="4"></rect>
+        </svg>
+        <span class="on" aria-hidden="true">On</span>
+        <span class="off" aria-hidden="true">Off</span>
+      </button>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
